@@ -6,10 +6,13 @@ h1 {
   /*margin-left: 50%;*/
   text-align: center;
 }
-
-p {
+.bigdiv{
+  background-color: grey;
+}
+.di {
   font-family: Helvetica;
-  color: white;
+  clear : right;
+
 }
 
 /* Simple Responsive Framework. */
@@ -18,25 +21,41 @@ p {
 }
  
  .margin {
-  padding-right: 10px;
   padding-left : 10px;
  }
  .boxes{
   margin-left: 1.25%;
   margin-right: 1.25%;
-  color: red;
+
  }
  
 .subt {
-  position: ;
-  float: left;
-  float: top;
-  clear: right;
+  position: relative;
+  float: right;
+  clear: left;
   background-color: yellow ;
-  background-size: 120px 50px 120px 50px;
-  border-radius: 5px
+  size: 120px 50px 120px 50px;
+  border:1px solid green;
+  border-color: black;
 }
-
+.subt1 {
+  position: relative;
+  float: right;
+  clear: left;
+  background-color: red ;
+  size: 120px 50px 120px 50px;
+  border:1px solid green;
+  border-color: black;
+}
+.subt2{
+  position: relative;
+  float: right;
+  clear: left;
+  background-color: cyan ;
+  size: 120px 50px 120px 50px;
+  border:1px solid green;
+  border-color: black;
+}
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-20, .col-lg-22 {
